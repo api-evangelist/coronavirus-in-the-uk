@@ -1,0 +1,32 @@
+aid: coronavirus-in-the-uk
+name: Coronavirus in the UK
+description: "UK Government coronavirus data, including deaths and cases by region"
+url: https://coronavirus.data.gov.uk/details/developers-guide
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Health"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Health
+  - Public APIs
+apis:
+  - name: Coronavirus in the UK
+    description: "UK Government coronavirus data, including deaths and cases by region"
+    humanURL: https://coronavirus.data.gov.uk/details/developers-guide
+    baseURL: https://coronavirus.data.gov.uk/details/developers-guide
+    tags:
+      - Health
+    properties:
+      - type: Documentation
+        url: https://coronavirus.data.gov.uk/details/developers-guide
+common:
+  - type: Website
+    url: https://coronavirus.data.gov.uk/details/developers-guide
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
