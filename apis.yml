@@ -39,7 +39,6 @@ apis:
   - name: Coronavirus in the UK
     description: "UK Government coronavirus data, including deaths and cases by region"
     humanURL: https://coronavirus.data.gov.uk/details/developers-guide
-    baseURL: https://coronavirus.data.gov.uk/details/developers-guide
     tags:
       - Health
     properties:
